@@ -1,0 +1,61 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "cards":[
+    {
+      "id":1,
+      "title": "Rogan Is awesome kake",
+      "writeup": "Lorem ipsum sit dolor mer amer",
+      "writerName": "Rio Rathore",
+      "categories":[],
+      "closing":"Yours Faithfully"
+    },
+    {
+      "id":2,
+      "title": "Rogan Is awesome kake",
+      "writeup": "Lorem ipsum sit dolor mer amer",
+      "writerName": "Rio Rathore",
+      "categories":[],
+      "closing":"Yours Faithfully"
+    },
+    {
+      "id":3,
+      "title": "Rogan Is awesome kake",
+      "writeup": "Lorem ipsum sit dolor mer amer",
+      "writerName": "Rio Rathore",
+      "categories":[],
+      "closing":"Yours Faithfully"
+    },
+    {
+      "id":4,
+      "title": "Bassanio drummer",
+      "writeup": "Lorem ipsum Can you hear the drums bassanio can you really hear the drum bassanio sit dolor mer amer",
+      "writerName": "Rio Rathore",
+      "categories":[],
+      "closing":"Yours Faithfully"
+    },
+    {
+      "id":5,
+      "title": "Rogan Is awesome kake",
+      "writeup": "Lorem ipsum sit dolor mer amer",
+      "writerName": "Rio Rathore",
+      "categories":[],
+      "closing":"Yours Faithfully"
+    }
+  ]
+}
