@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -29,12 +30,12 @@
           </svg>
           <span class="nav--logo--writeup">Letterio</span>
         </div>
-        <nav></nav>
+        <nav>Swipe mode</nav>
       </div>
       <div class="header--hero--content">
         <p>Speak your mind out to the world</p>
-        <h1>Read and publish letters, <br> Anonymously</h1>
-        <button>Get Started <svg class="button--icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+        <h1 class="text-xxl-light">Read and publish letters, <br> Anonymously</h1>
+        <button><a href="#get-started">Start Writing</a>  <svg class="button--icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
             stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
             <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
           </svg>
@@ -49,7 +50,7 @@
     <div class="display--section">
       <div class="display--section--wrapper">
         <div class="display--section--writeup">
-          <h1>The beauty of writing never ends</h1>
+          <h1 class="text-xxl-dark">The beauty of writing never ends</h1>
           <p>The world revolves around feelings and to share them best without emotion one can write. Read our beloved
             letters and share them if you like!</p>
         </div>
@@ -70,7 +71,7 @@
     </div>
     <div class="container info">
       <div class="info--hero--content">
-        <h1>"Discover a world of words! Our letter-based website is your portal to endless language adventures. Dive in
+        <h1 class="text-xxl-light">"Discover a world of words! Our letter-based website is your portal to endless language adventures. Dive in
           today!"</h1>
         <div class="info--stats">
           <div class="info--stats--container">
@@ -91,18 +92,20 @@
         src="https://upload.wikimedia.org/wikipedia/commons/9/9f/Ferdinand_Runk_-_Das_Glurnsertal_mit_der_Etsch_in_Tirol_-_3548_-_Kunsthistorisches_Museum.jpg"
         alt="" class="info--image">
     </div>
-    <div class="container form--container">
+    <div id="get-started" class="container form--container">
       <div class="form--wrapper">
-        <h1>Get Started</h1>
+        <h1 class="text-xxl-dark">Get Started</h1>
         <form>
           <div class="form--input">
             <label for="title">Title</label>
-            <input id="title" name="title"  required type="text" placeholder="A title or your subject for your letter, please">
+            <input id="title" name="title" required type="text"
+              placeholder="A title or your subject for your letter, please">
           </div>
 
           <div class="form--input">
             <label for="salutation">Salutation</label>
-            <input minlength="5" id="salutation" name="salutation" required type="text" placeholder="Dear [Universe] or [My Younger Self],">
+            <input minlength="5" id="salutation" name="salutation" required type="text"
+              placeholder="Dear [Universe] or [My Younger Self],">
           </div>
 
           <!-- quill -->
@@ -130,8 +133,6 @@
                   d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
                 <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
               </svg>
-
-              </svg>
             </button>
             <button type="submit" class="teal-bg">Publish <svg class="button--icon" xmlns="http://www.w3.org/2000/svg"
                 fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
@@ -143,6 +144,34 @@
       </div>
     </div>
   </main>
+  <footer class="container--footer">
+    <div class="cta--newsletter">
+      <div class="cta--newsletter--email">
+        <div>
+          <h1 class="text-xxl-light">Subscribe to our newsletter, <br>For faster updates</h1>
+        </div>
+        <div class="cta--form">
+          <input minlength="5" id="from" name="from" type="text" placeholder="Email">
+          <button type="submit" class="teal-bg">Submit <svg class="button--icon" xmlns="http://www.w3.org/2000/svg"
+              fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="lower--footer">
+      <div class="lower--footer--child">
+        <div class=" nav--logo--writeup">Letterio</div>
+      </div>
+      <div class="lower--footer--child">
+        <div class="footer--list">
+          <div><a href="#">Go to top</a></div>
+          <div>Created with ❤️ by <a href="https://www.pratikdevdas.com">Pratik</a></div>
+        </div>
+      </div>
+    </div>
+  </footer>
   <script type="module" src="/main.js"></script>
 </body>
 
