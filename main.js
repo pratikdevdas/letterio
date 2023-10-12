@@ -16,7 +16,7 @@ try {
   const html = data
     .map(
       (card) => `<div class="cards">
-  <h1>${card.title}</h1>
+  <h1><a href=./page.html?id=${card.id}>${card.title}</a></h1>
   <p class="cards--para">${card.writeup}</p>
   <p class="cards--closing">${card.closing}</p>
   <p>${card.writerName}</p>
