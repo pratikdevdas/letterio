@@ -2,12 +2,11 @@
   "name": "letterio",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "server":"json-server --watch db.json"
+    "server":"node index.js"
 
   },
   "devDependencies": {
