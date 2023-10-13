@@ -23,7 +23,8 @@
       "writeup": "Lorem ipsum sit dolor mer amer",
       "writerName": "Rio Rathore",
       "categories":[],
-      "closing":"Yours Faithfully"
+      "closing":"Yours Faithfully",
+      "date": ""
     },
     {
       "id":2,
@@ -64,6 +65,15 @@
       "writerName": "Rio Rathore",
       "categories":[],
       "closing":"Yours Faithfully"
+    },
+    {
+      "id":12,
+      "title": "Adarsh Bhai",
+      "writeup": "Lorem ipsum sit dolor mer amer",
+      "writerName": "Rio Rathorkfdsl;e",
+      "categories":[],
+      "closing":"Yours Faithfully"
     }
+ 
   ]
 }

@@ -31,30 +31,25 @@ try {
 }
 
 //form post request
-const postData = async(url) => {
-  const response = await fetch(url,{
-    method: 'POST',
+const postData = async (url) => {
+  const response = await fetch(url, {
+    method: "POST",
     headers: {
-      'Accept': 'application/json',
-      'Content-Type': 'application/json'
+      Accept: "application/json",
+      "Content-Type": "application/json",
     },
-    body: JSON.stringify({a: 1, b: 'Textual content'})
-  })
+    body: JSON.stringify({ a: 1, b: "Textual content" }),
+  });
   const json = await response.json();
   return json;
-}
+};
 
-
-//quill code 
-var container = document.getElementById('editor');
+//quill code
+var container = document.getElementById("editor");
 var quill = new Quill(container, {
   modules: {
-    toolbar: [
-      ['bold', 'italic', 'underline'],
-      ['blockquote'],
-      ['link'],
-    ]
+    toolbar: [["bold", "italic", "underline"], ["blockquote"], ["link"]],
   },
-  placeholder: 'Compose an epic...',
-  theme: 'snow'  // or 'bubble'
+  placeholder: "Compose an epic...",
+  theme: "snow", // or 'bubble'
 });
