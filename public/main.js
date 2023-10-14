@@ -1,4 +1,4 @@
-const url = `http://localhost:3000/cards`;
+const url = `https://letterio-backend.onrender.com/cards`;
 
 //fetching card data and rendering it to DOM
 const getData = async (url) => {

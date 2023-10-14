@@ -2,7 +2,7 @@
 const currentUrl = window.location.href;
 const splittedValue = currentUrl.split('id=')
 
-const url = `http://localhost:3000/cards`
+const url = `https://letterio-backend.onrender.com/cards`
 console.log(splittedValue[1]);
 
 async function fetchData() {
