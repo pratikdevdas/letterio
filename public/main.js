@@ -1,4 +1,4 @@
-const url = `https://letterio-backend.onrender.com/cards`;
+const url = `http://localhost:3200/cards`;
 
 //fetching card data and rendering it to DOM
 const getData = async (url) => {
@@ -16,10 +16,10 @@ try {
   const html = data
     .map(
       (card) => `<div class="cards">
-  <h1><a href=./page.html?id=${card.id}>${card.title}</a></h1>
+  <h1><a href=./cards.html?id=${card.id}>${card.title}</a></h1>
   <p class="cards--para">${card.writeup}</p>
   <p class="cards--closing">${card.closing}</p>
-  <p>${card.writerName}</p>
+  <p>${card.from}</p>
 </div>`
     )
     .join("");
@@ -37,6 +37,7 @@ const postData = async (url) => {
     headers: {
       Accept: "application/json",
       "Content-Type": "application/json",
+      // "secret": secret
     },
     body: JSON.stringify({ a: 1, b: "Textual content" }),
   });
@@ -53,3 +54,12 @@ var quill = new Quill(container, {
   placeholder: "Compose an epic...",
   theme: "snow", // or 'bubble'
 });
+
+
+// updating input disabled value to quill data
+let input = document.querySelector('.quill-data-input')
+
+quill.on('text-change', function() {
+  let justHtml =  quill.root.innerHTML;
+  input.value = justHtml;
+})
