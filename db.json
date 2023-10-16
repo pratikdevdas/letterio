@@ -1,9 +1,9 @@
 {
-  "cards": [
+  "cards":[
     {
       "id": 0,
       "title": "Enchanted Whispers",
-      "salutation": "Dear Utopia,",
+      "salutation": "Dear Utopia",
       "writeup": "<p>In every heartbeat, in every whispered thought, it's you I adore. Your presence ignites my soul, and I am forever captivated by the beauty that resides in your eyes.</p><p>With each passing day, my love for you deepens, an infinite ocean of affection. Your smile, your touch - they are my refuge, my joy.</p><p>I cherish the moments we share, the laughter, the sweet silences. You are the missing piece of my heart, the melody of my life.</p><p>In your embrace, I find solace. In your gaze, I see a future filled with love, passion, and dreams fulfilled.</p><p>With you, every day is a new adventure, a tale of love written in the stars. I thank the universe for bringing you into my life.</p>",
       "closing": "Forever Yours,",
       "from": "Sodexo"
@@ -16,9 +16,18 @@
       "date": "October 16, 2023",
       "closing": "From the depths of my heart",
       "from": "Shrill Whisperer"
+    },
+    {
+      "id": 2,
+      "title": "A Note ",
+      "salutation": "Dear Uni",
+      "writeup": "<p>It's been a great week and a great work as of now, loved the UI the pallet and loading time is also almost negligible...</p><p>Great work</p>",
+      "date": "16 October 2023",
+      "closing": "Yours XYZ",
+      "from": ""
     }
   ],
   "nextId": {
-    "id": 2
+    "id": 3
   }
 }
