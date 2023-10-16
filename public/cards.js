@@ -20,7 +20,7 @@ function updateText(data) {
       <h1 class="text-xxl-light">${data.title}</h1>
       <p class="letter--date">Date: ${data.date ? data.date : '<span>unknown</span>'}</p>
     </div>
-    <p class="cards--para letter--salutation">${data.salutation}</p>
+    <p class="cards--para letter--salutation">${data.salutation},</p>
     <div class="cards--para letter--container">
       ${data.writeup}
     </div>
