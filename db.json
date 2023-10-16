@@ -35,18 +35,9 @@
       "date": "October 16, 2023",
       "closing": "Yours, ",
       "from": "Aaleka"
-    },
-    {
-      "id": 4,
-      "title": "Dynamic Interactions Consultant",
-      "salutation": "Montana",
-      "writeup": "<p>fdgdfgdfg</p>",
-      "date": "October 16, 2023",
-      "closing": "gfdgfdggdffgg",
-      "from": "Libero asperiores quis reiciendis."
     }
   ],
   "nextId": {
-    "id": 5
+    "id": 4
   }
 }
