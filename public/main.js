@@ -1,4 +1,4 @@
-const url = `http://localhost:3200/cards`;
+const url = `https://seahorse-app-xz5gx.ondigitalocean.app/cards`;
 
 //fetching card data and rendering it to DOM
 const getData = async (url) => {

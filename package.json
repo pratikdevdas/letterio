@@ -6,14 +6,16 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "server": "nodemon server/index.js",
-    "start": "node server/index.js"
+    "server": "cross-env NODE_NVM=development nodemon server/index.js",
+    "start": "cross-env NODE_NVM=production node server/index.js"
   },
   "devDependencies": {
+    "cross-env": "^7.0.3",
     "nodemon": "^3.0.1",
     "vite": "^4.4.5"
   },
   "dependencies": {
+    "dotenv": "^16.3.1",
     "json-server": "^0.17.3"
   }
 }

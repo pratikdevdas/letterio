@@ -1,8 +1,8 @@
+const url = `https://seahorse-app-xz5gx.ondigitalocean.app/cards`;
 // send data to a page based on id
 const currentUrl = window.location.href;
 const splittedValue = currentUrl.split("id=");
 
-const url = `http://localhost:3200/cards`;
 console.log(splittedValue[1]);
 
 async function fetchData() {
