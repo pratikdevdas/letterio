@@ -7,7 +7,8 @@ The app prompts the user for input and generates a letter based on the user's re
 
 ## Improvements required
 
-1) api key setup for or enable no cors
-2) Truncate card text and make card section page based multiple colors
-3) Improve reading ui
-4) share buttons along with social handles
+- [] 1) api key setup for or enable no cors
+- [x] 2) Truncate card text
+- [x] 3) Improve reading ui
+- [] 4) share buttons along with social handles
+- [] 5) Make card section page based and multiple colors
