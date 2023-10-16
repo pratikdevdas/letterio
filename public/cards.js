@@ -18,7 +18,7 @@ function updateText(data) {
   const html = `
     <div class="letter--head">
       <h1 class="text-xxl-light">${data.title}</h1>
-      <p class="letter--date">Date: 12-11-2023</p>
+      <p class="letter--date">Date: ${data.date ? data.date : '<span>unknown</span>'}</p>
     </div>
     <p class="cards--para letter--salutation">Dear Rio,</p>
     <div class="cards--para letter--container">

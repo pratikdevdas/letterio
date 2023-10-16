@@ -2,19 +2,20 @@
   "cards": [
     {
       "id": 0,
-      "title": "Consectetur esse a",
-      "salutation": "Impedit quibusdam e",
-      "writeup": "<p>Sit, id, vel necessi.</p>",
-      "closing": "Ipsum molestias even",
-      "from": "Est velit et asperio"
+      "title": "Enchanted Whispers",
+      "salutation": "Dear Utopia,",
+      "writeup": "<p>In every heartbeat, in every whispered thought, it's you I adore. Your presence ignites my soul, and I am forever captivated by the beauty that resides in your eyes.</p><p>With each passing day, my love for you deepens, an infinite ocean of affection. Your smile, your touch - they are my refuge, my joy.</p><p>I cherish the moments we share, the laughter, the sweet silences. You are the missing piece of my heart, the melody of my life.</p><p>In your embrace, I find solace. In your gaze, I see a future filled with love, passion, and dreams fulfilled.</p><p>With you, every day is a new adventure, a tale of love written in the stars. I thank the universe for bringing you into my life.</p>",
+      "closing": "Forever Yours,",
+      "from": "Sodexo"
     },
     {
       "id": 1,
-      "title": "Dolores",
-      "salutation": "Amet harum cum veli",
-      "writeup": "<h3>1914 translation by H. Rackham</h3><p class=\"ql-align-justify\">\"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?\"</p><h3>Section 1.10.33 of \"de Finibus Bonorum et Malorum\", written by Cicero in 45 BC</h3><p class=\"ql-align-justify\">\"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.\"</p><h3>1914 translation by H. Rackham</h3><p>\"On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains.\"Tempor inventore sun.</p>",
-      "closing": "Ipsa necessitatibus,",
-      "from": "Nihala"
+      "title": "Eternal Embrace",
+      "salutation": "My Dearest",
+      "writeup": "<p>With each passing day, my heart beats in harmony with your name. Your presence in my life is a cherished gift, a light that brightens even the darkest of moments.</p><p>Your laughter is the melody to which my soul dances, and your smile is the sunrise that warms my world. In your eyes, I find a love that words can't express.</p><p>Every shared moment with you is a treasure, a chapter in the story of us. I'm deeply grateful for the love we share, and I eagerly await the countless adventures that await us.</p><p>In your arms, I find home, and in your love, I find my purpose. With you, my heart has found its forever.</p>",
+      "date": "October 16, 2023",
+      "closing": "From the depths of my heart",
+      "from": "Shrill Whisperer"
     }
   ],
   "nextId": {

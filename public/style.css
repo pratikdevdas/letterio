@@ -185,8 +185,26 @@ a {
   font-family: "Playfair Display", serif;
   font-size: 28px;
   line-height: 34px;
+  color: #343a40;
 }
 
+.cards--salutation {
+  font-size: 18px;
+  margin-top: 24px;
+  font-style: italic;
+}
+.cards--inner--text {
+  margin-bottom: 8px;
+}
+.cards p,
+.cards h3 {
+  color: #495057;
+}
+
+.cards h3 {
+  font-size: 1em;
+  font-weight: 600;
+}
 .cards--para {
   margin-top: 12px;
   margin-bottom: 12px;
@@ -195,8 +213,14 @@ a {
 }
 
 .cards--closing {
+  margin-top: 18px;
   margin-bottom: 4px;
   opacity: 0.6;
+  font-style: italic;
+}
+
+.cards--from {
+  font-style: italic;
 }
 
 .info {

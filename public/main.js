@@ -12,15 +12,19 @@ const getData = async (url) => {
 
 try {
   const data = await getData(url);
-  console.log(data);
   const html = data
     .map(
-      (card) => `<div class="cards">
+      (card) => {
+         const bigCard = card.writeup.length > 300
+        return `<div class="cards">
   <h1><a href=./cards.html?id=${card.id}>${card.title}</a></h1>
-  <p class="cards--para">${card.writeup}</p>
-  <p class="cards--closing">${card.closing}</p>
-  <p>${card.from}</p>
-</div>`
+  <p class="cards--salutation">${card.salutation},</p>
+  <div class="cards--para">
+  <p>${bigCard ? card.writeup.substring(0,300) : card.writeup} ${bigCard ? `<a style="color:#66a80f"" href=./cards.html?id=${card.id}>read more...</a>` : '<span></span>'}</p>
+  </div>
+  <p class="cards--closing">${card.closing},</p>
+  <p class="cards--from">${card.from}</p>
+</div>`}
     )
     .join("");
   document
@@ -63,3 +67,12 @@ quill.on('text-change', function() {
   let justHtml =  quill.root.innerHTML;
   input.value = justHtml;
 })
+
+// inject date in form's input value
+const currentDateAndTime = new Date();
+
+const options = { year: 'numeric', month: 'long', day: 'numeric' };
+const formattedDate = currentDateAndTime.toLocaleDateString(undefined, options);
+
+const dateInput = document.querySelector('#date')
+dateInput.value = formattedDate
