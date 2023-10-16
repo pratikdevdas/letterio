@@ -29,6 +29,16 @@ server.post("/cards", (req, res) => {
 res.redirect(`${url}cards.html?id=${db.get("nextId").value().id - 1}`)
 });
 
+// forbidding all other request except GET and POST
+server.all('*', function (req, res, next) {
+  if (req.method === 'GET' || req.method === 'POST') {
+    next() // Continue
+  } else {
+    res.sendStatus(403) // Forbidden
+  }
+})
+
+
 server.get("/echo", (req, res) => {
   return res.send("<h1>hey</h1>");
 });

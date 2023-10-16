@@ -1,5 +1,5 @@
 {
-  "cards":[
+  "cards": [
     {
       "id": 0,
       "title": "Your First Letter",
@@ -8,36 +8,45 @@
       "date": "October 16, 2023",
       "closing": "All yours folks",
       "from": "Creator"
-      },
-    {
-    "id": 1,
-    "title": "Eternal Embrace",
-    "salutation": "My Dearest",
-    "writeup": "<p>With each passing day, my heart beats in harmony with your name. Your presence in my life is a cherished gift, a light that brightens even the darkest of moments.</p><p>Your laughter is the melody to which my soul dances, and your smile is the sunrise that warms my world. In your eyes, I find a love that words can't express.</p><p>Every shared moment with you is a treasure, a chapter in the story of us. I'm deeply grateful for the love we share, and I eagerly await the countless adventures that await us.</p><p>In your arms, I find home, and in your love, I find my purpose. With you, my heart has found its forever.</p>",
-    "date": "October 16, 2023",
-    "closing": "From the depths of my heart",
-    "from": "Shrill Whisperer"
     },
     {
-    "id": 2,
-    "title": "A Note ",
-    "salutation": "Dear Uni",
-    "writeup": "<p>It's been a great week and a great work as of now, loved the UI the pallet and loading time is also almost negligible...</p><p>Great work</p>",
-    "date": "16 October 2023",
-    "closing": "Yours XYZ",
-    "from": ""
+      "id": 1,
+      "title": "Eternal Embrace",
+      "salutation": "My Dearest",
+      "writeup": "<p>With each passing day, my heart beats in harmony with your name. Your presence in my life is a cherished gift, a light that brightens even the darkest of moments.</p><p>Your laughter is the melody to which my soul dances, and your smile is the sunrise that warms my world. In your eyes, I find a love that words can't express.</p><p>Every shared moment with you is a treasure, a chapter in the story of us. I'm deeply grateful for the love we share, and I eagerly await the countless adventures that await us.</p><p>In your arms, I find home, and in your love, I find my purpose. With you, my heart has found its forever.</p>",
+      "date": "October 16, 2023",
+      "closing": "From the depths of my heart",
+      "from": "Shrill Whisperer"
     },
     {
-    "id": 3,
-    "title": "Note",
-    "salutation": "Dear future self,",
-    "writeup": "<p>Hey girl, slow down for a second—I have some things I want to share.</p><blockquote>Some stuff is going to happen to you. You won’t be able to plan for it, pencil it in your schedule for when is good for you, or always have someone pick up the phone to guide you through it. You’re going to have to just roll with the flow, take it in, glean lessons from it, and then carry on, head held high. Maybe journal on it—sometimes insights don’t come quick, but there’s something <em><u>positive</u></em> to be found from most experiences in life. Focus on that.</blockquote>",
-    "date": "October 16, 2023",
-    "closing": "Yours, ",
-    "from": "Aaleka"
+      "id": 2,
+      "title": "A Note ",
+      "salutation": "Dear Uni",
+      "writeup": "<p>It's been a great week and a great work as of now, loved the UI the pallet and loading time is also almost negligible...</p><p>Great work</p>",
+      "date": "16 October 2023",
+      "closing": "Yours XYZ",
+      "from": ""
+    },
+    {
+      "id": 3,
+      "title": "Note",
+      "salutation": "Dear future self,",
+      "writeup": "<p>Hey girl, slow down for a second—I have some things I want to share.</p><blockquote>Some stuff is going to happen to you. You won’t be able to plan for it, pencil it in your schedule for when is good for you, or always have someone pick up the phone to guide you through it. You’re going to have to just roll with the flow, take it in, glean lessons from it, and then carry on, head held high. Maybe journal on it—sometimes insights don’t come quick, but there’s something <em><u>positive</u></em> to be found from most experiences in life. Focus on that.</blockquote>",
+      "date": "October 16, 2023",
+      "closing": "Yours, ",
+      "from": "Aaleka"
+    },
+    {
+      "id": 4,
+      "title": "Dynamic Interactions Consultant",
+      "salutation": "Montana",
+      "writeup": "<p>fdgdfgdfg</p>",
+      "date": "October 16, 2023",
+      "closing": "gfdgfdggdffgg",
+      "from": "Libero asperiores quis reiciendis."
     }
-    ],
+  ],
   "nextId": {
-    "id": 4
+    "id": 5
   }
 }
